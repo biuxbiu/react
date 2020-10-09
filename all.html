@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="robots" content="all">
+        <meta name="author" content="Tencent-CP"/>
+        <meta name="Copyright" content="Tencent"/>
+        <meta name="keywords" content=""/>
+        <meta name="description" content=""/>
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewprot-fit=cover"/>
+        <title>一键预约腾讯年度游戏</title>
+        <!-- 私有样式 开始 -->
+        <link rel="stylesheet" href="https://xinyue.qq.com/act/a20200619txyx/css/index.css">
+
+        <!-- 私有样式 结束 -->
+        <script>
+            //屏幕适应
+            (function(win, doc) {
+                if (!win.addEventListener)
+                    return;
+                var html = document.documentElement;
+
+                function setFont() {
+                    var html = document.documentElement;
+                    var k = 750;
+                    html.style.fontSize = html.clientWidth / k * 100 + "px";
+                }
+
+                setFont();
+                setTimeout(function() {
+                    setFont();
+                }, 300);
+                doc.addEventListener('DOMContentLoaded', setFont, false);
+                win.addEventListener('resize', setFont, false);
+                win.addEventListener('load', setFont, false);
+            }
+            )(window, document);
+        </script>
+    </head>
+    <body>
+        <section class="wrap">
+            <h3 class="conf-logo"></h3>
+            <h4 class="conf-title"></h4>
+            <p class="spark-more"></p>
+            <div class="conf-time">年度发布会直播将于6月27日19:30开启</div>
+            <div class="user-info" style="display:none;">
+                <div id="unlogin" class="ulg fex">
+                    <a id="ptLoginBtn" href="javascript:;" style="cursor: pointer;" class="spr qq-btn">[QQ登录]</a>
+                    <a id="wxloginBtn" href="javascript:void(0);" class="spr wx-btn">[微信登录]</a>
+                </div>
+                <div id="logined" style="display: none;">
+                    <span>欢迎你，</span>
+                    <span id="userinfo"></span>
+                    <a id="ptLogoutBtn" href="javascript:;" style="cursor: pointer;">【注销】</a>
+                </div>
+            </div>
+            <!-- <a href="javascript:goApp();" class="btn-link" onclick="PTTSendClick('btn','enter-game','进入心悦游戏专区')">进入心悦游戏专区</a> -->
+            <a href="javascript:;" class="btn-link" >进入心悦游戏专区</a>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" gid="1345">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1345">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/13.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1343">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1343">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/22.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1357">
+                        <label>
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1357">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/11.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1387">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1387">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/10.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1385">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1385">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/03.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1383">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1383">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/04.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1391">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1391">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/05.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1358">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1358">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/06.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1384">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1384">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/07.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1371">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1371">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/08.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1372">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1372">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/09.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1368">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1368">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/12.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1359">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1359">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/14.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1352">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1352">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/16.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1329">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1329">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/17.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1388">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1388">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/19.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1389">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1389">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/20.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1298">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1298">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/21.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1324">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1324">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/23.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1376">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1376">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/24.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1382">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1382">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/25.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1381">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1381">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/15.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1355">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1355">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/18.png">
+                        </label>
+                    </div>
+                    <div class="swiper-slide" gid="1338">
+                        <label class="label">
+                            <input type="checkbox" class="checkbox-input" checked="checked" gid="1338">
+                            <span class="checkbox"></span>
+                            <img class="swiper-img" src="//game.gtimg.cn/images/tgclub/act/a20200619txyx/02.png">
+                        </label>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="action">
+                <a href="javascript:goApp();" class="btn-action yjyy" onclick="PTTSendClick('btn','book-game','已预约所选游戏')">一键预约所选游戏</a>
+                <a href="javascript:goApp();" class="btn-action" onclick="PTTSendClick('btn','video-show','前往发布会直播现场')">前往发布会直播现场</a>
+            </div>
+        </section>
+        <script type="text/javascript" src="//ossweb-img.qq.com/images/js/mobile_bundle/util/zepto.js"></script>
+        <script type="text/javascript" src="//ossweb-img.qq.com/images/js/mobile_bundle/milo.js"></script>
+        <script src="https://ossweb-img.qq.com/images/js/swiper/swiper-3.4.2.min.js"></script>
+        <script src="//ossweb-img.qq.com/images/js/PTT/ping_tcss_tgideas_https_min.js"></script>
+        <script src="//xinyue.qq.com/act/a20200619txyx/tgclub_mobile_share_new.js"></script>
+
+        <script>
+            function goApp() {
+                goToApp('https://xinyue.qq.com/act/a20200619txyx/index.html');
+            }
+            function init_share() {
+                var clickflow = "a20200619txyx";
+                //任务编号，便于分享统计
+                //分享信息自定义
+                var url = "https://xinyue.qq.com/act/a20200619txyx/index_h5.html";
+
+                window.shareData = {
+                    "flowId": clickflow,
+                    "imgUrl": "https://game.gtimg.cn/images/tgclub/act/a20200619txyx/txyx.png",
+                    //尺寸是240x240的图片,且要存放到qq.com服务器,并填写完整的链接，分享的icon
+                    "APPimgUrl": "https://game.gtimg.cn/images/tgclub/act/a20200619txyx/txyx.png",
+                    "tTitle": "一键预约腾讯年度游戏",
+                    //分享标题
+                    "tContent": "2020年腾讯游戏年度发布会，6月27月19：30线上约定你！",
+                    //分享描述
+                    "QQtimeLineLink": url,
+                    "WXtimeLineLink": url,
+                    "APPtimeLineLink": url,
+                    "sharesuccess": function() {
+                    },
+                    "ahareerror": function() {}
+                };
+                sharefriend();
+            }
+            ;init_share();
+        </script>
+        <script>
+
+            var mySwiper = new Swiper('.swiper-container',{
+                direction: 'horizontal',
+                effect: "coverflow",
+                grabCursor: false,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                loop: true,
+                slideToClickedSlide: true,
+                followFinger: false,
+                touchRatio: 2,
+                autoplay: 2000,
+                speed: 600,
+                autoplayDisableOnInteraction: false,
+                pagination: '.swiper-pagination',
+                coverflow: {
+                    rotate: 0,
+                    stretch: 140,
+                    depth: 500,
+                    modifier: 1,
+                    slideShadows: false
+                },
+                onSlideChangeStart: function(swiper) {
+                    cards(swiper)
+                },
+                onSlideChangeEnd: function(swiper) {
+                }
+            })
+
+            function cards(swiper) {
+                var num = swiper.activeIndex;
+                allNum = swiper.slides.length;
+                for (var i = 0; i < allNum; i++) {
+                    swiper.slides[i].querySelector('.checkbox').style = '';
+                    swiper.slides[i].querySelector('.swiper-img').style = '';
+                }
+                swiper.slides[num - 2].querySelector('.swiper-img').style.cssText += 'opacity:.9;-webkit-transform:translateY(-1rem);transform:translateY(-1rem)';
+                swiper.slides[num - 2].querySelector('.checkbox').style.cssText += '-webkit-transform:translateY(-1rem);transform:translateY(-1rem)';
+                swiper.slides[num - 3].querySelector('.swiper-img').style.cssText += 'opacity:.7;-webkit-transform:translateY(-2rem);transform:translateY(-2rem)';
+                swiper.slides[num - 3].querySelector('.checkbox').style.cssText += '-webkit-transform:translateY(-2rem);transform:translateY(-2rem)';
+                swiper.slides[num - 4].querySelector('.swiper-img').style.cssText += 'opacity:.7;-webkit-transform:translateY(-3rem);transform:translateY(-3rem);';
+                swiper.slides[num - 4].querySelector('.checkbox').style.cssText += '-webkit-transform:translateY(-3rem);transform:translateY(-3rem);';
+                swiper.slides[num - 5].querySelector('.swiper-img').style.cssText += 'opacity:0;-webkit-transform:translateY(-4rem);transform:translateY(-4rem);';
+                swiper.slides[num - 5].querySelector('.checkbox').style.cssText += 'opacity:0;-webkit-transform:translateY(-4rem);transform:translateY(-4rem);';
+                swiper.slides[num - 6].querySelector('.swiper-img').style.cssText += 'opacity:0;-webkit-transform:translateY(-5rem);transform:translateY(-5rem);';
+                swiper.slides[num - 6].querySelector('.checkbox').style.cssText += 'opacity:0;-webkit-transform:translateY(-5rem);transform:translateY(-5rem);';
+                swiper.slides[num + 2].querySelector('.swiper-img').style.cssText += 'opacity:.9;-webkit-transform:translateY(-1rem);transform:translateY(-1rem)';
+                swiper.slides[num + 2].querySelector('.checkbox').style.cssText += 'opacity:1;-webkit-transform:translateY(-1rem);transform:translateY(-1rem)';
+                swiper.slides[num + 3].querySelector('.swiper-img').style.cssText += 'opacity:.7;-webkit-transform:translateY(-2rem);transform:translateY(-2rem)';
+                swiper.slides[num + 3].querySelector('.checkbox').style.cssText += 'opacity:1;-webkit-transform:translateY(-2rem);transform:translateY(-2rem)';
+                swiper.slides[num + 4].querySelector('.swiper-img').style.cssText += 'opacity:.7;-webkit-transform:translateY(-3rem);transform:translateY(-3rem);';
+                swiper.slides[num + 4].querySelector('.checkbox').style.cssText += 'opacity:1;-webkit-transform:translateY(-3rem);transform:translateY(-3rem);';
+                swiper.slides[num + 5].querySelector('.swiper-img').style.cssText += 'opacity:0;-webkit-transform:translateY(-4rem);transform:translateY(-4rem);';
+                swiper.slides[num + 5].querySelector('.checkbox').style.cssText += 'opacity:0;-webkit-transform:translateY(-4rem);transform:translateY(-4rem);';
+                swiper.slides[num + 6].querySelector('.swiper-img').style.cssText += 'opacity:0;-webkit-transform:translateY(-5rem);transform:translateY(-5rem);';
+                swiper.slides[num + 6].querySelector('.checkbox').style.cssText += 'opacity:0;-webkit-transform:translateY(-5rem);transform:translateY(-5rem);';
+
+            }
+            cards(mySwiper);
+
+            var setSite = {
+                siteType: "a20200619txyx",
+                pageType: "index",
+                pageName: "腾讯游戏年度发布会",
+                osact: 0,
+                ingame: 0,
+                stayTime: 0
+            };
+            if (typeof (pgvMain) == 'function')
+                pgvMain();
+
+
+            //选择器
+            function _class(className){
+                return document.querySelector(className)
+            }
+
+            function _classAll(className){
+                return document.querySelectorAll(className)
+            }
+
+
+    for(var i = 0; i < _classAll('.swiper-slide').length; i++){
+        (function(i){
+            _classAll('.swiper-slide')[i].addEventListener('click',function(e){
+                gidAction(this.querySelector('.checkbox-input').getAttribute('gid'),this.querySelector('.checkbox-input').checked)
+            },false)
+        })(i)
+    }
+
+    function gidAction(gid,status){
+        var currentGid = document.querySelectorAll('.checkbox-input[gid="' +  gid + '"]').length;
+        console.log(currentGid)
+        for(var j = 0; j < document.querySelectorAll('.checkbox-input[gid="' +  gid + '"]').length;j++){
+            if(status){
+                document.querySelectorAll('.checkbox-input[gid="' +  gid + '"]')[j].checked = false
+            }else{
+                document.querySelectorAll('.checkbox-input[gid="' +  gid + '"]')[j].checked = true
+            }
+        }
+    }
+
+    
+
+    //按钮事件
+    var button  = _class('.btn-link');
+
+    //每次都循环遍历出一个数组
+    function YijianYuyue(){
+        var checkboxNum = _classAll('.checkbox-input').length;
+        arr = [];
+        for(var i =0;i<checkboxNum;i++){
+          if(document.querySelectorAll('.checkbox-input')[i].checked){
+          arr.push(document.querySelectorAll('.checkbox-input')[i].getAttribute('gid'))
+          }
+        }
+        console.log(arr)
+        filterData(arr)
+     }
+
+        function filterData(arr){
+            function norepeat(arr) {
+            for(var i = 0; i < arr.length-1; i++){
+                for(var j = i+1; j < arr.length; j++){
+                    if(arr[i]==arr[j]){
+                        arr.splice(j,1); 
+                        j--;
+                    }
+                }
+            }
+            return arr;
+        }
+        var newArr = norepeat(arr);
+        console.log(newArr);   
+    }
+
+    //点击触发
+    button.addEventListener('click',function(){
+      YijianYuyue()
+    })
+        </script>
+    </body>
+</html>
