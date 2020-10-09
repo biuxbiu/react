@@ -397,3 +397,53 @@ class Button extends React.Component{
 |是否有生命周期|No|Yes|
 |是否有状态|No<br>全靠 `props` 传递进来|Yes<br>可以自己建立状态|
 
+
+
+<br>
+<br>
+
+
+#### 使用css的几种方式
+
+* 行内样式
+* 声明样式
+* 引入样式
+* css Module 样式
+* style-component
+
+
+<br>
+
+**行内样式**
+
+```javascript
+class example extends Component{
+    render(){
+        return(
+            <div style={{background:'#fff';color:'#000'}}>This is an Example</div>
+        )
+    }
+}
+```
+
+<br>
+<br>
+
+**声明样式**
+
+```javascript
+const boxOne = {
+    background: 'black',
+    color: 'white',
+    fontSize: '20px'
+}
+
+class example extends Component{
+    render(){
+        return(
+            <div style={boxOne}>hello world</div>
+        )
+    }
+}
+```
+
