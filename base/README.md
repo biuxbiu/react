@@ -503,3 +503,13 @@ class example extends Component{
 
 ## react hooks
 
+
+
+## typescript in create-react-app
+
+在 `create-react-app` 中使用 `typescript` 的话，只需要执行 
+
+```
+npx create-react-app project-name --typescript
+```
+
