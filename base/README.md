@@ -513,3 +513,46 @@ class example extends Component{
 npx create-react-app project-name --typescript
 ```
 
+
+
+
+## 打包资源路径丢失
+
+
+我们在打包资源的时候，会遇到一些资源丢失，这个时候最简单最粗暴的地方就是在 `package.json` 添加：
+
+```
+"homepage":"."
+```
+
+
+## 用typescript的时候发现react报错
+
+使用 `create-react-app` 脚手架和 `typescript` ：
+
+```
+npm create-react-app demo --template typescript
+```
+
+生成了一个基于 `tsx` 的工程文件，但是在运行的过程当中，发现找不到 `react module` 了。
+
+```
+/Users/userName/Documents/project/demo/src/App.tsx
+TypeScript error in /Users/userName/Documents/project/demo/src/App.tsx(1,19):
+Could not find a declaration file for module 'react'. '/Users/userName/Documents/project/project/demo/node_modules/react/index.js' implicitly has an 'any' type.
+  If the 'react' package actually exposes this module, consider sending a pull request to amend 'https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react`  TS7016
+
+  > 1 | import React from 'react';
+      |                   ^
+    2 | 
+    3 | function App() {
+    4 |   return (
+```
+
+
+这个时候只要执行安装 `@type/react` 就可以了
+
+
+```
+npm install @type/react --D
+```
