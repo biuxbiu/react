@@ -556,3 +556,14 @@ Could not find a declaration file for module 'react'. '/Users/userName/Documents
 ```
 npm install @type/react --D
 ```
+
+
+## import路径问题
+
+在组件中，将 `../../../component/Nav` 的 `import` 路径形式改成基于 `src` 目录下的 `component/Nav`
+
+如果你使用的是 `tsx` ，那么在 `tsconfig.json` 中的 `compilerOptions` 添加
+
+```
+"baseUrl":"src"
+```
