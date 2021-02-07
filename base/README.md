@@ -510,7 +510,7 @@ class example extends Component{
 在 `create-react-app` 中使用 `typescript` 的话，只需要执行 
 
 ```
-npx create-react-app project-name -template typescript
+npx create-react-app project-name --template typescript
 ```
 
 
