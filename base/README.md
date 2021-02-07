@@ -34,7 +34,7 @@
 * [react不要那么多嵌套](share/React?id=react不要那么多嵌套)
 * [函数组件和类组件的区别](share/React?id=函数组件和类组件的区别)
 * [使用css的几种方式](share/React?id=使用css的几种方式)
-* [react hooks](share/React?id=react hooks)
+* [react hooks](share/React?id=react-hooks)
 
 `react` 的精髓：`虚拟dom` `函数式编程`；
  
@@ -510,7 +510,7 @@ class example extends Component{
 在 `create-react-app` 中使用 `typescript` 的话，只需要执行 
 
 ```
-npx create-react-app project-name --typescript
+npx create-react-app project-name -template typescript
 ```
 
 

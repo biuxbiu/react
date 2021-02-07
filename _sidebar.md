@@ -21,4 +21,12 @@
         * [-- 什么是属性](base/#什么是属性)
     * [-- 你不知道的react](base/#你不知道的react)
         * [-- 如果本地打开打包后的文件](base/#如果本地打开打包后的文件)
+        * [-- react不要那么多嵌套](base/#react不要那么多嵌套)
+    * [-- 函数组件和类组件的区别](base/#函数组件和类组件的区别)
+    * [-- 使用css的几种方式](base/#使用css的几种方式)
+    * [-- typescript in create-react-app](base/#typescript-in-create-react-app)
+    * [-- 打包资源路径丢失](base/#打包资源路径丢失)
+    * [-- 用typescript的时候发现react报错](base/#用typescript的时候发现react报错)
+    * [-- import路径问题](base/#import路径问题)
+
     
